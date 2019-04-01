@@ -1,9 +1,62 @@
-<!DOCTYPE HTML>
-<HTML>
-<HEAD>
-<TITLE>THIS IS MY SITE</TITLE>
-</HEAD>
-<BODY>
-<H>I'M NADIA KHAN</H1>
-</BODY>
-</HTML>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+    <style>
+      #website {
+        background-image: url(third.jpg);
+        background-size: cover;
+        height: 600px;
+      }
+
+      #tdLogo {
+        width: 15%;
+        padding: 1%;
+      }
+
+      #tdLogo img {
+        width: 100%;
+      }
+
+      #tdEmpty {
+        width: 10%;
+      }
+
+      #tdMenu {
+        width: 70%;
+      }
+
+      #tdMenu > #divMenu > a {
+        width: 200px;
+        height: 30px;
+        font-size: 20px;
+        padding-top: 10px;
+        text-align: center;
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="website">
+      <table>
+        <tr>
+          <td id="tdLogo">
+            <img src="logo.png" />
+          </td>
+          <td id="tdEmpty"></td>
+          <td id="tdMenu">
+            <div id="divMenu">
+              <a href="#">Home</a>
+              <a href="#">Fresh Arrivals</a>
+              <a href="#">About Us</a>
+              <a href="#">Contact</a>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
